@@ -19,14 +19,14 @@ function findOrAdd(rootNode, newNode) {
     if (currentNode) {
       findOrAdd(currentNode, newNode);
     } else {
-      rootNode.left = newNode;
+      currentNode.left = newNode;
     }
   } else if (currentNode.data < newNode.data) { // move right
     currentNode = currentNode.right;
     if (currentNode) {
       findOrAdd(currentNode, newNode);
     } else {
-      rootNode.right = newNode;
+      currentNode.right = newNode;
     }
   }
 }
