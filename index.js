@@ -48,6 +48,8 @@ function max(tree) {
   }
 }
 
+console.log(max(node));
+
 function min(tree) {
 
 }
