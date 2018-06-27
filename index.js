@@ -45,7 +45,7 @@ function max(tree) {
     max(tree.right);
     //console.log(tree.right);
   } else {
-    let result = tree.data;
+    var result = tree.data;
   }
   if (result) {
     return result;
