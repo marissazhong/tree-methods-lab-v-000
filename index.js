@@ -15,14 +15,14 @@ function findOrAdd(rootNode, newNode) {
   if (currentNode.data == newNode.data) {
     return true;
   } else if (currentNode.data > newNode.data) { // move left
-    currentNode = rootNode.left;
+    currentNode = currentNode.left;
     if (currentNode) {
       findOrAdd(currentNode, newNode);
     } else {
       rootNode.left = newNode;
     }
   } else if (currentNode.data < newNode.data) { // move right
-    currentNode = rootNode.right;
+    currentNode = currentNode.right;
     if (currentNode) {
       findOrAdd(currentNode, newNode);
     } else {
