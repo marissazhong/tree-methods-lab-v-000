@@ -34,9 +34,13 @@ function findOrAdd(rootNode, newNode) {
 }
 
 function max(tree) {
-
+  if (tree.right) {
+    max(tree.right);
+  } else {
+    return tree.data;
+  }
 }
 
 function min(tree) {
-  
+
 }
