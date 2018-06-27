@@ -47,8 +47,10 @@ function max(tree) {
   }
 }
 
-console.log(max(node));
-
 function min(tree) {
-
+  if (tree.left) {
+    return min(tree.left);
+  } else {
+    return tree.data;
+  }
 }
