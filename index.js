@@ -40,7 +40,7 @@ let node = {data: 5, left:
                   }}
 
 function max(tree) {
-  var result = 0;
+  let result = 0;
   if (tree.right) {
     max(tree.right);
     //console.log(tree.right);
