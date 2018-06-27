@@ -11,7 +11,6 @@ function inOrder(currentNode) {
 
 function findOrAdd(rootNode, newNode) {
   let currentNode = rootNode;
-  //edge case: found new_node at root
   if (currentNode.data == newNode.data) {
     //*test: console.log(currentNode.data,newNode.data);
     return true;
