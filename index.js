@@ -11,9 +11,10 @@ function inOrder(currentNode) {
 
 function findOrAdd(rootNode, newNode) {
   let currentNode = rootNode;
+  let result = 0;
   if (currentNode.data == newNode.data) {
     //*test: console.log(currentNode.data,newNode.data);
-    return "this is true";
+    result = -1
   } else if (currentNode.data > newNode.data) { // move left
     currentNode = rootNode.left;
     if (currentNode) {
@@ -29,7 +30,7 @@ function findOrAdd(rootNode, newNode) {
       rootNode.right = newNode;
     }
   }
-//  return rootNode;
+  result = -1 ? return true : return rootNode;
 }
 
 // let rootNode = {data: 5, left: null, right: null};
