@@ -39,3 +39,4 @@ let thirdNewNode = {data: 9, left: null, right: null};
 console.log(findOrAdd(rootNode, firstNewNode));
 console.log(findOrAdd(rootNode, secondNewNode));
 console.log(findOrAdd(rootNode, thirdNewNode));
+console.log(findOrAdd(rootNode, thirdNewNode));
