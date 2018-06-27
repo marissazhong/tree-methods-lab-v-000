@@ -29,7 +29,7 @@ function findOrAdd(rootNode, newNode) {
       rootNode.right = newNode;
     }
   }
-  console.log(rootNode);
+  return rootNode;
 }
 
 let rootNode = {data: 5, left: null, right: null};
