@@ -33,6 +33,12 @@ function findOrAdd(rootNode, newNode) {
   return result = -1 ? true : rootNode;
 }
 
+let node = {data: 5, left:
+                  {data: 3, left: null, right: null},
+                    right: {data: 7, left: null,
+                    right: {data: 9, left: null, right: null}
+                  }}
+
 function max(tree) {
   if (tree.right) {
     max(tree.right);
