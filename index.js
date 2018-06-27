@@ -43,7 +43,7 @@ function max(tree) {
   if (tree.right) {
     return max(tree.right);
   } else {
-    return tree.data;
+    return tree;
   }
 }
 
@@ -51,6 +51,6 @@ function min(tree) {
   if (tree.left) {
     return min(tree.left);
   } else {
-    return tree.data;
+    return tree;
   }
 }
