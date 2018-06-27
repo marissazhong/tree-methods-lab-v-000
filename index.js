@@ -42,9 +42,9 @@ let node = {data: 5, left:
 function max(tree) {
   if (tree.right) {
     max(tree.right);
-    console.log(tree.right);
+    //console.log(tree.right);
   } else {
-    console.log(tree.data);
+    //console.log(tree.data);
   }
 }
 
