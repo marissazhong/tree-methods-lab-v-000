@@ -44,7 +44,7 @@ function max(tree) {
     max(tree.right);
     //console.log(tree.right);
   } else {
-    console.log(tree.data);;
+    console.log(tree.data);
   }
 }
 
