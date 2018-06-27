@@ -43,6 +43,7 @@ function max(tree) {
   if (tree.right) {
     max(tree.right);
   } else {
+    console.log(tree.data);
     return tree.data;
   }
 }
