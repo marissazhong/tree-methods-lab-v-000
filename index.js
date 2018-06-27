@@ -33,10 +33,10 @@ function findOrAdd(rootNode, newNode) {
   return result = -1 ? true : rootNode;
 }
 
-function max() {
-  
+function max(tree) {
+
 }
 
-function min() {
+function min(tree) {
   
 }
