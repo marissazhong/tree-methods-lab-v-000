@@ -13,7 +13,7 @@ function findOrAdd(rootNode, newNode) {
   let currentNode = rootNode;
   if (currentNode.data == newNode.data) {
     //*test: console.log(currentNode.data,newNode.data);
-    return true;
+    return "this is true";
   } else if (currentNode.data > newNode.data) { // move left
     currentNode = rootNode.left;
     if (currentNode) {
