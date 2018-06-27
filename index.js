@@ -40,12 +40,14 @@ let node = {data: 5, left:
                   }}
 
 function max(tree) {
+  //let result = 0;
   if (tree.right) {
     max(tree.right);
     //console.log(tree.right);
   } else {
-    console.log(tree.data);
+    let result = tree.data;
   }
+  return result;
 }
 
 console.log(max(node));
