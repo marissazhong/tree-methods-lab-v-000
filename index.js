@@ -45,11 +45,11 @@ function max(tree) {
     max(tree.right);
     //console.log(tree.right);
   } else {
-    var result = tree.data;
+    result = tree.data;
     console.log(result);
     console.log(tree.data);
   }
-  if (result) {
+  if (result != 0) {
     return result;
   }
 }
