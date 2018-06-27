@@ -45,11 +45,9 @@ function max(tree) {
     max(tree.right);
     //console.log(tree.right);
   } else {
-    result = tree.data;
+    result = -1;
   }
-  if (result != 0) {
-    return result;
-  }
+  return result = -1 ? tree.data : tree.right;
 }
 
 console.log(max(node));
